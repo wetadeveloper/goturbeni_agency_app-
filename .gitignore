@@ -1,0 +1,106 @@
+# =========================
+# General / Miscellaneous
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# =========================
+# IDE / Editor
+# =========================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.xcuserstate
+*.xcworkspace
+
+# =========================
+# Flutter / Dart / Pub
+# =========================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Generated plugin registrant
+lib/generated_plugin_registrant.dart
+/.github/
+/aiDoc/
+
+# =========================
+# Firebase
+# =========================
+firebase.json
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
+lib/firebase_options.dart
+/.firebaserc
+
+# =========================
+# iOS / Xcode
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Podfile.lock
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Generated.xcconfig
+ios/Flutter/Generated.xcconfig
+ios/Runner.xcworkspace/
+ios/build/
+ios/DerivedData/
+*.xcconfig
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# =========================
+# Android / Gradle
+# =========================
+**/app/build/
+**/app/captures/
+**/app/intermediates/
+**/app/generated/
+**/app/.cxx/
+**/app/.externalNativeBuild/
+**/app/outputs/
+**/app/.gradle/
+**/local.properties
+**/gradle-wrapper.properties
+**/gradle-wrapper.jar
+**/gradle/
+**/captures/
+**/output.json
+**/output-metadata.json
+**/dependency-reports/
+**/lint/intermediates/
+**/lint/generated/
+
+# Keystore / signing
+*.jks
+*.keystore
+
+# Environment files (dotenv etc.)
+.env
+.env.*
+
+# Firebase local/state
+.firebase/
